@@ -1,7 +1,6 @@
-@media only screen and (max-width: 768px) {
-  .desc {
-    display: none;
-  }
+@font-face {
+  font-family: "IranianSans";
+  src: url("../fonts/IranianSans.ttf") format("truetype");
 }
 nav {
   padding-right: 3rem;
@@ -9,7 +8,7 @@ nav {
 }
 * {
   box-sizing: border-box;
-  font-family: "Iranian Sans", sans-serif;
+  font-family: IranianSans, Arial, sans-serif;
   font-size: 14px;
 }
 .search-box,
@@ -37,6 +36,7 @@ a li {
   color: #212529;
 }
 .mega-menu-content {
+  margin-top: 10px;
   background-color: #f5f5f5;
   color: #212529;
   display: none;
@@ -47,7 +47,7 @@ a li {
   right: 0;
   left: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 10;
   text-align: right;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -73,6 +73,9 @@ a li {
   background-color: white;
   border-radius: 30px 30px 0 0;
 }
+.category {
+  height: 500px;
+}
 .category img {
   border-radius: 5px;
   object-fit: cover;
@@ -94,4 +97,76 @@ a li {
   display: block;
   margin: 10px;
   position: sticky;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-btn {
+  color: #595959;
+}
+.swiper-pagination-bullet-active {
+  background-color: #595959;
+}
+.card {
+  border: none;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-light {
+  color: rgb(0, 0, 49);
+  background-color: #e2e2e0;
+  border-color: #e2e2e0;
+}
+.btn-light:hover {
+  color: #e2e2e0;
+  background-color: rgb(42, 42, 73);
+  border-color: rgb(42, 42, 73);
+}
+.discount-per {
+  position: absolute;
+  top: 5%;
+  right: 7%;
+  background-color: #3e4ddb;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2.5px 7px;
+  font-size: 12px;
+}
+.discount-per span {
+  font-size: 12px;
+}
+.last-price span {
+  text-decoration: line-through;
+  color: rgb(88, 87, 87);
+  font-size: 10px;
 }
