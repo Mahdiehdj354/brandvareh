@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brandvare</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link href="http://fonts.cdnfonts.com/css/iranian-sans" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body dir="rtl">
+    <div class="container-fluid px-0">
+      <nav
+        class="d-none d-lg-flex flex-row justify-content-between align-items-center mt-4"
+      >
+        <div class="col-lg-2 pl-5" style="text-align: le">
+          <img class="col-lg-10" src="./images/logo.png" />
+        </div>
+        <div class="col-lg-4 search-container">
+          <div
+            class="search py-3 pl-4 d-flex flex-row justify-content-between align-items-center"
+          >
+            <input
+              class="search-box col-11 px-3"
+              type="text"
+              placeholder="جستجوی محصول "
+            />
+            <div class="col-1 px-0 ltr">
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 d-flex justify-content-center">
+          <i class="bi bi-cart fa-3x"></i>
+        </div>
+      </nav>
+      <section class="mega-menu d-none d-lg-block mt-3 mb-3">
+        <ul
+          class="d-none d-lg-flex flex-row justify-content-start position-relative"
+        >
+          <a href="#"><li>خانه</li></a>
+          <button class="mega-menu-btn">
+            کالای دیجیتال
+            <div class="mega-menu-content">
+              <div
+                class="mega-menu-col d-flex col-lg-12 flex-lg-column flex-lg-wrap px-5"
+              >
+                <a href="#">گوشی موبایل</a>
+                <a href="#">لوازم جانبی گوشی موبایل</a>
+                <a href="#">لب تاب</a>
+                <a href="#">تبلت</a>
+                <a href="#">کامپیوتر</a>
+                <a href="#">هارد ssd</a>
+                <a href="#">هدست، هدفون، هندزفری</a>
+                <a href="#">ماوس و کیبورد</a>
+                <a href="#">ساعت هوشمند</a>
+                <a href="#">دوربین</a>
+                <a href="#">کیف و کاور موبایل</a>
+                <a href="#">کابل و شارژر</a>
+              </div>
+            </div>
+          </button>
+          <a href="#"><li>مد و پوشاک</li></a>
+          <a href="#"><li>زیبایی و سلامت</li></a>
+          <a href="#"><li>خانه و آشپزخانه</li></a>
+          <a href="#"><li>ورزش و سفر</li></a>
+        </ul>
+      </section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 500px">
+            <img src="./images/c-2.jpg" class="d-block w-100 rounded-5" />
+          </div>
+          <div class="carousel-item" style="max-height: 500px">
+            <img src="./images/c-3.jpg" class="d-block w-100 rounded-5" />
+          </div>
+          <div class="carousel-item" style="max-height: 500px">
+            <img src="./images/c-1.jpg" class="d-block w-100 rounded-5" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="inform-icon pt-4 pt-lg-5 px-1">
+        <ul
+          class="d-flex px-1 px-lg-5 ps-lg-7 justify-content-around justify-content-lg-between"
+        >
+          <li class="col-2">
+            <div class="d-lg-flex">
+              <div
+                class="col-lg-5 d-flex justify-content-center img-container align-items-center ms-2 p-3"
+              >
+                <img src="./images/free-delivery.png" class="col-10" />
+              </div>
+              <div class="col-lg-7 pt-2">
+                <h5>ارسال رایگان</h5>
+                <div class="desc">ارسال رایگان تمامی محصولات</div>
+              </div>
+            </div>
+          </li>
+          <li class="col-2">
+            <div class="d-lg-flex">
+              <div
+                class="col-lg-5 d-flex justify-content-center img-container align-items-center ms-2 p-3"
+              >
+                <img src="./images/fast-delivery.png" class="col-10" />
+              </div>
+              <div class="col-lg-7 pt-2 pr-lg-3">
+                <h5>ارسال سریع</h5>
+                <div class="desc">ارسال رایگان تمامی محصولات</div>
+              </div>
+            </div>
+          </li>
+          <li class="col-2">
+            <div class="d-lg-flex">
+              <div
+                class="col-lg-5 d-flex justify-content-center img-container align-items-center ms-2 p-3"
+              >
+                <img src="./images/best.png" class="col-10" />
+              </div>
+              <div class="col-lg-7 pt-2 pr-lg-3">
+                <h5>بهترین کیفیت</h5>
+                <div class="desc">ارسال رایگان تمامی محصولات</div>
+              </div>
+            </div>
+          </li>
+          <li class="col-2">
+            <div class="d-lg-flex">
+              <div
+                class="col-lg-5 d-flex justify-content-center align-items-center img-container ms-2 p-3"
+              >
+                <img src="./images/discount.png" class="col-10" />
+              </div>
+              <div class="col-lg-7 pt-2 pr-lg-3">
+                <h5>بیشترین تخفیف</h5>
+                <div class="desc">ارسال رایگان تمامی محصولات</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section
+        class="category d-flex flex-wrap flex-row px-1 px-lg-5 my-3 my-lg-5"
+        style="height: 500px"
+      >
+        <div class="col-lg-7 h-100">
+          <div class="col-12 d-flex flex-row py-1" style="height: 30%">
+            <div class="col-4 px-1">
+              <a href="./index.html">
+                <img class="w-100" src="./images/fashion-handbag.jpg" />
+              </a>
+            </div>
+            <div class="col-8 px-1">
+              <a href="./index.html">
+                <img class="w-100" src="./images/make-up-stuff.jpg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row py-1" style="height: 70%">
+            <div class="col-8 px-1">
+              <a href="./index.html">
+                <img class="w-100" src="./images/dress.jpg" />
+              </a>
+            </div>
+            <div class="col-4 px-1">
+              <a href="./index.html">
+                <img class="w-100" src="./images/chair.jpg" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 h-100">
+          <div class="col-12 py-1 px-1" style="height: 60%">
+            <div class="h-100">
+              <a href="./index.html"
+                ><img class="w-100" src="./images/men-coat.jpg" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 d-flex flex-row py-1" style="height: 40%">
+            <div class="col-6 px-1">
+              <a href="./index.html"
+                ><img class="w-100" src="./images/watch.jpg" />
+              </a>
+            </div>
+            <div class="col-6 px-1">
+              <a href="./index.html"
+                ><img class="w-100" src="./images/elec-devices.jpg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="col-12 d-flex flex-row flex-wrap mt-3 ps-3">
+        <div class="slide-bar col-lg-3 d-flex flex-column px-5">
+          <h3>دسته بندی محصولات</h3>
+          <ul class="mt-3 px-0">
+            <a href="#">
+              <li class="px-0">
+                <div class="slide-item px-0">
+                  <img src="./images/sidear1.jpg" class="img-slidebar" />
+                  <span class="sp-slide">کالای دیجیتال</span>
+                </div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="px-0">
+                <div class="slide-item px-0">
+                  <img src="./images/slidear2.jpg" class="img-slidebar" />
+                  <span class="sp-slide">کالای دیجیتال</span>
+                </div>
+              </li>
+            </a>
+            <a href="#">
+              <li class="px-0">
+                <div class="slide-item px-0">
+                  <img src="./images/slidear3.jpg" class="img-slidebar" />
+                  <span class="sp-slide">کالای دیجیتال</span>
+                </div>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-lg-8 col-12"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
