@@ -1,9 +1,13 @@
 @media only screen and (max-width: 768px) {
-    .desc {
-      display: none;
-    }
+  .desc {
+    display: none;
   }
-  @media only screen and (max-width:992px){
-    .category {
-        height: unset;
+}
+@media only screen and (max-width: 992px) {
+  .category {
+    height: unset;
   }
+  .body-banner {
+    height: unset;
+  }
+}
